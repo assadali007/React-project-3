@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+html,body {
+  margin: 0;
+  background: #1A1B21;
+  height: 100vh;
+
+}
+
+.card-image {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.card-name {
+  color:#FFFFFF;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom:0;
+}
+.card-job-name {
+  color: #F3BF99;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.6em;
+}
+.link {
+  color :#F5F5F5;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.card-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin-top: 1em;
+}
+.btn1 {
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 0.5em 1.5em;
+  font-size: 1em;
+  margin-right: 1em;
+}
+.btn1 >img {
+  margin-right: 0.5em;
+}
+.btn2 {
+  background: #5093E2;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 0.5em 1.5em;
+  border: unset;
+  font-size: 1em;
+  color: #FFFFFF;
+
+}
+.btn2 >img {
+  margin-right: 0.5em;
+}
+.About-container {
+  margin: 2em;
+}
+.about {
+  color: #F5F5F5;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.about-paragraph {
+  color: #DCDCDC;
+  font-size: 0.8em;
+  margin: 0;
+}
+.interest {
+  color: #F5F5F5;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+.interest-paragraph {
+  color: #DCDCDC;
+  font-size: 0.8em;
+  margin: 0;
+}
+.footer {
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  padding: 1em;
+}
+.navigation-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.navigation-footer > a:hover,a:active {
+  background: #61dafb;
+  border:none;
+}
